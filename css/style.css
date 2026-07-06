@@ -338,14 +338,15 @@ select {
   position: static;
   display: none;
   width: 100%;
+  max-width: 300px;
   box-shadow: none;
-  border: none;
-  background-color: var(--color-bg-light);
+  background-color: #f0fdf4; /* Soft emerald background */
+  border: 1px solid rgba(5, 150, 105, 0.12); /* Subtle green border */
   opacity: 1;
   transform: none;
-  padding: 0.5rem 0;
-  border-radius: var(--radius-sm);
-  margin-top: 0.5rem;
+  padding: 0.75rem 0;
+  border-radius: var(--radius-md);
+  margin: 0.5rem auto 0;
 }
 
 .mobile-nav .dropdown.active .dropdown-menu {

@@ -15,8 +15,9 @@ If you are signed in to MotiCart, you can delete your account directly inside th
 
 1. Open MotiCart.
 2. Go to **Settings**.
-3. Choose **Delete all data**.
-4. Confirm the deletion request.
+3. Open the account section.
+4. Choose **Delete account**.
+5. Confirm the deletion request.
 
 You must be online and signed in for in-app account deletion to complete.
 
