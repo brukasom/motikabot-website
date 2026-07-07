@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — MotiCart</title>
+  <meta name="description" content="Privacy Policy for MotiCart shopping list application by MotikaBot. Understand how we protect and process your data.">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../../assets/images/motikabot_logo.png">
+  <link rel="stylesheet" href="../../css/style.css?v=1.2">
+</head>
+<body>
+
+  <!-- --- Header / Navbar --- -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="../../" class="logo">
+        <img src="../../assets/images/motikabot_logo.png" alt="MotikaBot Logo">
+        <span>MotikaBot</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu">
+        <a href="../../" class="nav-link" data-i18n="nav_home">Home</a>
+        
+        <!-- MotiCart Dropdown -->
+        <div class="dropdown">
+          <a href="../../#moticart-section" class="nav-link dropdown-toggle" data-i18n="nav_moticart">MotiCart <span style="font-size: 0.75rem; margin-left: 2px;">▾</span></a>
+          <div class="dropdown-menu">
+            <a href="../../#moticart-section" class="dropdown-item" data-i18n="nav_moticart_about">About MotiCart</a>
+            <a href="../faq/" class="dropdown-item" data-i18n="nav_faq">Help & FAQ</a>
+            <a href="#" class="dropdown-item active" data-i18n="nav_privacy">Privacy Policy</a>
+            <a href="../terms/" class="dropdown-item" data-i18n="nav_terms">Terms of Service</a>
+            <a href="../delete-account/" class="dropdown-item" data-i18n="nav_delete_account">Delete Account</a>
+          </div>
+        </div>
+        
+        <a href="../../#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
+        
+        <!-- Language Switcher -->
+        <div class="lang-selector-wrapper">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-text-muted);">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <select id="language-select" class="lang-select">
+            <option value="en">English</option>
+            <option value="sr">Srpski</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+          </select>
+        </div>
+      </nav>
+
+      <!-- Hamburger mobile trigger -->
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- --- Mobile Navigation Drawer --- -->
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="../../" class="nav-link" data-i18n="nav_home">Home</a>
+    
+    <!-- Mobile Dropdown -->
+    <div class="dropdown active">
+      <a href="#" class="nav-link dropdown-toggle" data-i18n="nav_moticart">MotiCart <span style="font-size: 0.8rem; margin-left: 2px;">▾</span></a>
+      <div class="dropdown-menu">
+        <a href="../../#moticart-section" class="dropdown-item" data-i18n="nav_moticart_about">About MotiCart</a>
+        <a href="../faq/" class="dropdown-item" data-i18n="nav_faq">Help & FAQ</a>
+        <a href="#" class="dropdown-item active" data-i18n="nav_privacy">Privacy Policy</a>
+        <a href="../terms/" class="dropdown-item" data-i18n="nav_terms">Terms of Service</a>
+        <a href="../delete-account/" class="dropdown-item" data-i18n="nav_delete_account">Delete Account</a>
+      </div>
+    </div>
+    
+    <a href="../../#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
+    
+    <div class="lang-selector-wrapper" style="margin-top: 1rem; width: 150px; justify-content: center;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="2" y1="12" x2="22" y2="12"></line>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+      </svg>
+      <select id="mobile-language-select" class="lang-select">
+        <option value="en">English</option>
+        <option value="sr">Srpski</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- --- Main Legal Layout --- -->
+  <main class="container">
+    <div class="legal-wrapper">
+      <a href="../../" class="legal-back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        <span data-i18n="back_to_home">Back to Home</span>
+      </a>
+      
+      <!-- Styled container for dynamic markdown -->
+      <article class="legal-content" id="legal-content">
+        <p>Loading Privacy Policy...</p>
+      </article>
+    </div>
+  </main>
+
+  <!-- --- Footer --- -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="../../" class="logo" style="margin-bottom: 0.75rem;">
+            <img src="../../assets/images/motikabot_logo.png" alt="MotikaBot Logo">
+            <span>MotikaBot</span>
+          </a>
+          <p class="footer-tagline" data-i18n="footer_tagline">Simple apps that solve everyday problems.</p>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-link-col">
+            <span class="footer-link-col-title" data-i18n="app_name">MotiCart</span>
+            <a href="../faq/" class="footer-link" data-i18n="nav_faq">Help & FAQ</a>
+            <a href="#" class="footer-link" data-i18n="nav_privacy">Privacy Policy</a>
+            <a href="../terms/" class="footer-link" data-i18n="nav_terms">Terms of Service</a>
+            <a href="../delete-account/" class="footer-link" data-i18n="nav_delete_account">Delete Account</a>
+          </div>
+
+          <div class="footer-link-col">
+            <span class="footer-link-col-title">MotikaBot</span>
+            <a href="../../#contact" class="footer-link" data-i18n="nav_contact">Contact</a>
+            <a href="mailto:motikabot@gmail.com" class="footer-link">motikabot@gmail.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="footer_copyright">© 2026 MotikaBot. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../js/translations.js"></script>
+  <script src="../../js/app.js"></script>
+  
+  <!-- Marked.js Markdown Parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    const basePaths = {
+      en: '../../legal/MotiCart_Privacy_Policy_FINAL_EN.md',
+      sr: '../../legal/MotiCart_Privacy_Policy_FINAL_SR.md',
+      es: '../../legal/MotiCart_Privacy_Policy_FINAL_ES.md',
+      fr: '../../legal/MotiCart_Privacy_Policy_FINAL_FR.md',
+      de: '../../legal/MotiCart_Privacy_Policy_FINAL_DE.md'
+    };
+
+    function loadDocument(lang) {
+      const path = basePaths[lang] || basePaths['en'];
+      
+      fetch(path)
+        .then(response => {
+          if (!response.ok) {
+            if (lang !== 'en') {
+              return fetch(basePaths['en']).then(res => {
+                if (!res.ok) throw new Error('File not found');
+                return res.text();
+              });
+            }
+            throw new Error('File not found');
+          }
+          return response.text();
+        })
+        .then(text => {
+          document.getElementById('legal-content').innerHTML = marked.parse(text);
+        })
+        .catch(err => {
+          console.error(err);
+          document.getElementById('legal-content').innerHTML = `
+            <h2>Privacy Policy — MotiCart</h2>
+            <p>Error loading document. Please run this page on a local web server (CORS restrictions prevent browser dynamic loading on direct file:// protocol launches).</p>
+          `;
+        });
+    }
+
+    // Initial load
+    const initialLang = document.documentElement.getAttribute('lang') || 'en';
+    loadDocument(initialLang);
+
+    // Listen for language changes
+    window.addEventListener('languageChanged', (e) => {
+      loadDocument(e.detail.lang);
+    });
+  </script>
+</body>
+</html>
