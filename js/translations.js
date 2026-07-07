@@ -17,16 +17,16 @@ const translations = {
     // MotiCart Section
     featured_title: "Our Apps",
     app_name: "MotiCart",
-    app_tagline: "Smart shopping lists made simple.",
-    app_description: "Create and manage personal or shared grocery lists with ease. Collaborate with family or friends in real-time, organize items by categories, and never forget a thing.",
+    app_tagline: "Share your shopping list with family and track changes live.",
+    app_description: "MotiCart is a simple shopping list app for families, couples, and roommates. Say goodbye to paper scraps, lost notes, or forgotten items — MotiCart gives you one shared place that updates in real-time, showing exactly what is already in the cart and what still needs to be bought. No extra messages, no typos, no confusion.",
 
     // Highlights
     highlight_share_title: "Share with anyone",
-    highlight_share_desc: "Collaborate on lists with family or friends.",
-    highlight_organize_title: "Track what’s left",
-    highlight_organize_desc: "Check off purchased items and finish shopping without guesswork.",
-    highlight_forget_title: "Never forget",
-    highlight_forget_desc: "Add items quickly and shop with confidence.",
+    highlight_share_desc: "The shared list updates in real-time on everyone's screens instantly.",
+    highlight_organize_title: "No follow-up messages",
+    highlight_organize_desc: "One person adds groceries from home, and the other sees them in the store immediately.",
+    highlight_forget_title: "Practical and simple",
+    highlight_forget_desc: "Not a complicated planner — just open the list, add what you need, and make shopping easier.",
 
     btn_view_app: "View on Google Play",
     btn_see_all: "See screenshots",
@@ -163,16 +163,16 @@ const translations = {
     // MotiCart Section
     featured_title: "Naše aplikacije",
     app_name: "MotiCart",
-    app_tagline: "Pametne šoping liste na jednostavan način.",
-    app_description: "Kreirajte i upravljajte ličnim ili zajedničkim listama za kupovinu sa lakoćom. Sarađujte sa porodicom ili prijateljima u realnom vremenu, organizujte stavke po kategorijama i nikada ništa ne zaboravite.",
+    app_tagline: "Deli listu za kupovinu sa porodicom i prati izmene uživo.",
+    app_description: "MotiCart je jednostavna lista za kupovinu za porodicu, parove i cimere. Zaboravite na papiriće, poruke ili zaboravljene stavke — sa MotiCart-om imate jedno zajedničko mesto koje u realnom vremenu prikazuje šta je kupljeno, a šta još treba kupiti. Bez prepisivanja i bez zabune.",
 
     // Highlights
     highlight_share_title: "Podelite sa bilo kim",
-    highlight_share_desc: "Sarađujte na listama sa porodicom ili prijateljima.",
-    highlight_organize_title: "Pratite šta je još ostalo",
-    highlight_organize_desc: "Čekirajte kupljene stavke i završite kupovinu bez zabune.",
-    highlight_forget_title: "Nikada ne zaboravite",
-    highlight_forget_desc: "Dodajte stavke brzo i kupujte sa samopouzdanjem.",
+    highlight_share_desc: "Zajednička lista se ažurira uživo na ekranima svih članova.",
+    highlight_organize_title: "Bez naknadnih poruka",
+    highlight_organize_desc: "Jedna osoba doda voće ili hleb od kuće, a druga to odmah vidi u prodavnici.",
+    highlight_forget_title: "Praktično i jednostavno",
+    highlight_forget_desc: "Nije komplikovan planer — otvoriš listu, dodaš šta treba i kupovina postaje lakša.",
 
     btn_view_app: "Pogledaj na Google Play",
     btn_see_all: "Pogledaj slike ekrana",
@@ -309,16 +309,16 @@ const translations = {
     // MotiCart Section
     featured_title: "Nuestras aplicaciones",
     app_name: "MotiCart",
-    app_tagline: "Listas de compras inteligentes de forma sencilla.",
-    app_description: "Cree y administre listas de compras personales o compartidas con facilidad. Colabore con familiares o amigos en tiempo real, organice artículos por categorías y nunca olvide nada.",
+    app_tagline: "Comparte tu lista de compras con la familia y sigue los cambios en vivo.",
+    app_description: "MotiCart es una lista de compras sencilla para familias, parejas y compañeros de piso. Olvídate de los papeles, notas perdidas o mensajes de última hora: MotiCart te ofrece un lugar compartido que muestra en tiempo real qué se ha comprado y qué falta por comprar. Sin mensajes adicionales, sin confusiones.",
 
     // Highlights
     highlight_share_title: "Comparta con cualquiera",
-    highlight_share_desc: "Colabore en listas con familiares o amigos.",
-    highlight_organize_title: "Controla lo que queda",
-    highlight_organize_desc: "Marca los artículos comprados y termina la compra sin confusiones.",
-    highlight_forget_title: "Nunca olvide",
-    highlight_forget_desc: "Agregue artículos rápidamente y compre con confianza.",
+    highlight_share_desc: "La lista compartida se actualiza en tiempo real en las pantallas de todos.",
+    highlight_organize_title: "Sin mensajes adicionales",
+    highlight_organize_desc: "Una persona añade leche o fruta desde casa y la otra lo ve al instante en la tienda.",
+    highlight_forget_title: "Práctico y sencillo",
+    highlight_forget_desc: "No es un planificador complejo: abre la lista, añade lo que necesitas y simplifica tus compras.",
 
     btn_view_app: "Ver en Google Play",
     btn_see_all: "Ver capturas de pantalla",
@@ -455,16 +455,16 @@ const translations = {
     // MotiCart Section
     featured_title: "Nos applications",
     app_name: "MotiCart",
-    app_tagline: "Des listes de courses intelligentes en toute simplicité.",
-    app_description: "Créez et gérez facilement des listes de courses personnelles ou partagées. Coopérez avec votre famille ou vos amis en temps réel, organisez les articles par catégories et n'oubliez jamais rien.",
+    app_tagline: "Partagez votre liste de courses en famille et suivez les modifications en direct.",
+    app_description: "MotiCart est une liste de courses simple pour les familles, les couples et les colocataires. Oubliez les papiers perdus, les notes ou les textos de dernière minute : MotiCart vous offre un espace partagé qui affiche en temps réel ce qui est déjà acheté et ce qu'il reste à prendre. Sans messages superflus, sans confusion.",
 
     // Highlights
     highlight_share_title: "Partagez avec tout le monde",
-    highlight_share_desc: "Colabore sur des listes avec votre famille ou vos amis.",
-    highlight_organize_title: "Suivez ce qu’il reste",
-    highlight_organize_desc: "Cochez les articles achetés et terminez vos courses sans confusion.",
-    highlight_forget_title: "N'oubliez jamais",
-    highlight_forget_desc: "Ajoutez rapidement des articles et achetez en toute confiance.",
+    highlight_share_desc: "La liste commune se synchronise instantanément sur les écrans de tous les membres.",
+    highlight_organize_title: "Fini les textos oubliés",
+    highlight_organize_desc: "Une personne ajoute du lait ou des fruits depuis la maison, et l'autre le voit aussitôt au supermarché.",
+    highlight_forget_title: "Simple et pratique",
+    highlight_forget_desc: "Pas de planificateur complexe : ouvrez la liste, ajoutez vos articles et facilitez vos courses.",
 
     btn_view_app: "Voir sur Google Play",
     btn_see_all: "Voir captures d'écran",
@@ -601,16 +601,16 @@ const translations = {
     // MotiCart Section
     featured_title: "Unsere Apps",
     app_name: "MotiCart",
-    app_tagline: "Intelligente Einkaufslisten einfach gemacht.",
-    app_description: "Erstellen und verwalten Sie persönliche oder gemeinsame Einkaufslisten mit Leichtigkeit. Arbeiten Sie in Echtzeit mit Familie oder Freunden zusammen, organisieren Sie Artikel nach Kategorien und vergessen Sie nie wieder etwas.",
+    app_tagline: "Teile deine Einkaufsliste mit der Familie und verfolge Änderungen live.",
+    app_description: "MotiCart ist die einfache Einkaufsliste für Familien, Paare und WGs. Vergiss Zettelchaos, verlorene Notizen oder späte Nachrichten – MotiCart bietet einen gemeinsamen Ort, der in Echtzeit zeigt, was schon im Einkaufswagen liegt und was noch fehlt. Ohne zusätzliche Nachrichten und ohne Missverständnisse.",
 
     // Highlights
     highlight_share_title: "Mit jedem teilen",
-    highlight_share_desc: "Arbeiten Sie mit Familie oder Freunden an Listen zusammen.",
-    highlight_organize_title: "Behalte im Blick, was noch fehlt",
-    highlight_organize_desc: "Hake gekaufte Artikel ab und erledige den Einkauf ohne Durcheinander.",
-    highlight_forget_title: "Nichts vergessen",
-    highlight_forget_desc: "Fügen Sie Artikel schnell hinzu und kaufen Sie beruhigt ein.",
+    highlight_share_desc: "Die gemeinsame Liste wird in Echtzeit auf allen Geräten der Mitglieder aktualisiert.",
+    highlight_organize_title: "Keine späten SMS mehr",
+    highlight_organize_desc: "Eine Person fügt Milch oder Obst von zu Hause hinzu, und die andere sieht es sofort im Supermarkt.",
+    highlight_forget_title: "Praktisch und einfach",
+    highlight_forget_desc: "Kein komplizierter Planer — öffne die Liste, füge hinzu, was du brauchst, und mache den Einkauf entspannter.",
 
     btn_view_app: "Auf Google Play ansehen",
     btn_see_all: "Screenshots ansehen",
