@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Account Deletion and Data Deletion — MotiCart</title>
   <meta name="description" content="Instructions for deleting your MotiCart account and requesting personal data removal.">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../../assets/images/motikabot_logo.png">
   <link rel="stylesheet" href="../../css/style.css?v=1.2">
 </head>
 <body>
@@ -154,21 +156,50 @@
   <!-- Marked.js Markdown Parser -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    fetch('delete-account.md')
-      .then(response => {
-        if (!response.ok) throw new Error('File not found');
-        return response.text();
-      })
-      .then(text => {
-        document.getElementById('legal-content').innerHTML = marked.parse(text);
-      })
-      .catch(err => {
-        console.error(err);
-        document.getElementById('legal-content').innerHTML = `
-          <h2>Account and Data Deletion — MotiCart</h2>
-          <p>Error loading document. Please open delete-account.md in the delete-account directory to view its contents directly, or run this page on a local web server (CORS restrictions prevent browser dynamic loading on direct file:// protocol launches).</p>
-        `;
-      });
+    const basePaths = {
+      en: '../../legal/MotiCart_Account_and_Data_Deletion_FINAL_EN.md',
+      sr: '../../legal/MotiCart_Account_and_Data_Deletion_FINAL_SR.md',
+      es: '../../legal/MotiCart_Account_and_Data_Deletion_FINAL_ES.md',
+      fr: '../../legal/MotiCart_Account_and_Data_Deletion_FINAL_FR.md',
+      de: '../../legal/MotiCart_Account_and_Data_Deletion_FINAL_DE.md'
+    };
+
+    function loadDocument(lang) {
+      const path = basePaths[lang] || basePaths['en'];
+      
+      fetch(path)
+        .then(response => {
+          if (!response.ok) {
+            if (lang !== 'en') {
+              return fetch(basePaths['en']).then(res => {
+                if (!res.ok) throw new Error('File not found');
+                return res.text();
+              });
+            }
+            throw new Error('File not found');
+          }
+          return response.text();
+        })
+        .then(text => {
+          document.getElementById('legal-content').innerHTML = marked.parse(text);
+        })
+        .catch(err => {
+          console.error(err);
+          document.getElementById('legal-content').innerHTML = `
+            <h2>Account & Data Deletion — MotiCart</h2>
+            <p>Error loading document. Please run this page on a response local web server (CORS restrictions prevent browser dynamic loading on direct file:// protocol launches).</p>
+          `;
+        });
+    }
+
+    // Initial load
+    const initialLang = document.documentElement.getAttribute('lang') || 'en';
+    loadDocument(initialLang);
+
+    // Listen for language changes
+    window.addEventListener('languageChanged', (e) => {
+      loadDocument(e.detail.lang);
+    });
   </script>
 </body>
 </html>

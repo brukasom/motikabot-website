@@ -262,7 +262,7 @@ const translations = {
       {
         category: "subscriptions",
         q: "Da li ću trajno izgubiti arhivirane zajedničke liste nakon isteka pretplate?",
-        a: "Ne! Vaše arhivirane zajedničke liste čuvamo u bazi u periodu od **14 dana**. Ako u tom roku ponovo aktivirate Plus ili Family pretplatu, sve vaše arhivirane zajedničke liste biće potpuno vraćene (Restore). Nakon 14 dana, one se trajno brišu radi zaštite privatnosti."
+        a: "Ne! Vaše arhivirane zajedničke liste čuvamo u bazi tokom **roka od 14 dana**. Ako u tom roku ponovo aktivirate Plus ili Family pretplatu, sve vaše arhivirane zajedničke liste biće potpuno vraćene (Restore). Nakon 14 dana, one se trajno brišu radi zaštite privatnosti."
       },
       {
         category: "coins",
