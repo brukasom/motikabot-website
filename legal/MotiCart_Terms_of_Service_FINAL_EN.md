@@ -2,7 +2,7 @@
 
 **Last updated:** July 5, 2026
 
-Welcome to MotiCart, a shopping list and grocery list application provided by an individual developer operating under the developer name **MotikaBot**.
+MotiCart is an app for creating and managing shopping lists, developed and maintained by MotikaBot.
 
 These Terms of Service (“Terms”) explain the rules for using MotiCart. By downloading, installing, accessing, or using MotiCart, you agree to these Terms. If you do not agree, please do not use the app.
 
