@@ -2,7 +2,7 @@
 
 **Poslednje ažuriranje:** 5. jul 2026.
 
-Dobro došli u MotiCart, aplikaciju za liste za kupovinu i liste namirnica koju pruža individualni developer pod imenom developera **MotikaBot**.
+MotiCart je aplikacija za kreiranje i upravljanje listama za kupovinu, koju razvija i održava MotikaBot.
 
 Ovi Uslovi korišćenja („Uslovi“) objašnjavaju pravila za korišćenje aplikacije MotiCart. Preuzimanjem, instaliranjem, pristupanjem ili korišćenjem aplikacije MotiCart, prihvatate ove Uslove. Ako se ne slažete, nemojte koristiti aplikaciju.
 
