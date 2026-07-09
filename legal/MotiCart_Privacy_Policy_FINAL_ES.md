@@ -4,7 +4,7 @@
 
 ## 1. Quiénes somos
 
-MotiCart es una aplicación de lista de compras y lista de supermercado proporcionada por un desarrollador individual que opera bajo el nombre de desarrollador **MotikaBot**.
+MotiCart es una aplicación para crear y gestionar listas de compras, desarrollada y mantenida por MotikaBot.
 
 Para preguntas sobre privacidad, solicitudes de datos o ayuda con la eliminación de cuenta/datos, puedes contactarnos en:
 
