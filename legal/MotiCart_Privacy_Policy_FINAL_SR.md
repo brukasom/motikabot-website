@@ -4,7 +4,7 @@
 
 ## 1. Ko smo mi
 
-Dobro došli u MotiCart, aplikaciju za pravljenje i upravljanje listama za kupovinu, koju pruža individualni developer pod imenom MotikaBot.
+MotiCart je aplikacija za kreiranje i upravljanje listama za kupovinu, koju razvija i održava MotikaBot.
 
 Za pitanja o privatnosti, zahteve u vezi sa podacima ili pomoć oko brisanja naloga/podataka, možete nas kontaktirati na:
 
