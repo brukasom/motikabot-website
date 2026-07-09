@@ -4,7 +4,7 @@
 
 ## 1. Qui nous sommes
 
-MotiCart est une application de listes de courses et de listes d'achats fournie par un développeur individuel opérant sous le nom de développeur **MotikaBot**.
+MotiCart est une application permettant de créer et de gérer des listes de courses, développée et maintenue par MotikaBot.
 
 Pour toute question relative à la confidentialité, demande concernant les données ou aide à la suppression du compte/des données, vous pouvez nous contacter à :
 
