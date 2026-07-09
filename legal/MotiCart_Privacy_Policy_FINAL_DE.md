@@ -4,7 +4,7 @@
 
 ## 1. Wer wir sind
 
-MotiCart ist eine Einkaufslisten- und Lebensmittellisten-App, die von einem einzelnen Entwickler unter dem Entwicklernamen **MotikaBot** bereitgestellt wird.
+MotiCart ist eine App zum Erstellen und Verwalten von Einkaufslisten, die von MotikaBot entwickelt und gepflegt wird.
 
 Bei Fragen zum Datenschutz, Datenanfragen oder Hilfe zur Konto-/Datenlöschung kannst du uns kontaktieren unter:
 
