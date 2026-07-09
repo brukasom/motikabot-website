@@ -4,7 +4,7 @@
 
 ## 1. Who we are
 
-MotiCart is a shopping list and grocery list app provided by an individual developer operating under the developer name **MotikaBot**.
+MotiCart is an app for creating and managing shopping lists, developed and maintained by MotikaBot.
 
 For privacy questions, data requests, or account/data deletion help, you can contact us at:
 
