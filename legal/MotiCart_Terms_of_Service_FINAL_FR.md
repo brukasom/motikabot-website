@@ -2,7 +2,7 @@
 
 **Dernière mise à jour :** 5 juillet 2026
 
-Bienvenue sur MotiCart, une application de listes de courses et de listes d'achats fournie par un développeur individuel opérant sous le nom de développeur **MotikaBot**.
+MotiCart est une application permettant de créer et de gérer des listes de courses, développée et maintenue par MotikaBot.
 
 Les présentes Conditions d'utilisation (« Conditions ») expliquent les règles d'utilisation de MotiCart. En téléchargeant, installant, accédant à MotiCart ou en l'utilisant, vous acceptez ces Conditions. Si vous ne les acceptez pas, veuillez ne pas utiliser l'application.
 
